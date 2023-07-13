@@ -156,3 +156,15 @@ ssh-keygen -t ed25519 -C "эл-я почта, к которой привязан
 ```
 
 
+#### Статусы файлов в Git
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
+
+
